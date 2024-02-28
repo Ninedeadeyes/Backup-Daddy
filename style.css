@@ -1,0 +1,28 @@
+body{
+
+    background-color: grey;
+    
+}
+
+
+
+#Quote{
+    border:2px black inset;
+    background-color:white;
+    width: 400px;
+    min-height: 100px;
+    font-family: monospace;
+}
+
+
+.buttons {
+    width: 480px;
+    height:  50px;
+    display: flex;
+    gap: 5px;
+}
+
+.buttons button {
+    width:  130px; /* Adjust the width */
+    height:  20px; /* Adjust the height */
+}
