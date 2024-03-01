@@ -5,34 +5,41 @@ let setting;
 
 randomQuote.innerHTML="Just in case Daddy goes permanently offline.. "
 
-let lifeQuotes=["Life isn't always going to be fair but don't be bitter be better",
-           "When it comes to career think what you enjoy, what you are good at, what you can by paid for, what the world needs ",
-           "Always strive to be the best version of yourself. For example if you choose to be a tiddlywinks player, be the best you can be. ",
+let lifeQuotes=["Life isn't always going to be fair but don't be bitter be better.",
+           "When it comes to career think what you enjoy, what you are good at, what you can be paid for, what the world needs. ",
+           "Always strive to be the best version of yourself. For example, if you choose to be a Tiddlywinks player, be the best you can be. ",
            "Pick up coding, even if it is not a career path for you, it is fun to learn and you gain the ability to create.",
-           "Try to be as honest as possible and avoid lying. This is not always easy but you will be a better person for it",
-           "Learn to walk away from people and situations. Not everyone is your friend and some situation you can only lose by being involved",
-           "Find a balance of interests/hobbies. Some should be challenging so you can explore your potential whilst others should be easy on the brain/body which provides time for reflection/relaxation",
-           "Focus on improving yourself rather the world. When you invest in yourself and make a change, it will naturally reflect upon the world"];
+           "Try to be as honest as possible and avoid lying. This is not always easy but you will be a better person for it.",
+           "If you love something, set it free. If it comes back, it's yours. If not, it was never meant to be.",
+           "Rather than make excuses for your mistakes, embrace each one as an opportunity to improve and be better.",
+           "Choose your battles wisely, there are some fights it is better to cut your losses and walk away. You don't need to fight every battle to win the war. ",
+           "Learn to walk away from people and situations. Not everyone is your friend and in some situations, you can only lose by being involved.",
+           "Don't cheat in life because you are only cheating yourself an opportunity to learn and grow.",
+           "Find a balance of interests/hobbies. Some should be challenging so you can explore your potential whilst others should be easy on the brain/body which provides time for reflection/relaxation.",
+           "Focus on improving yourself rather than the world. When you invest in yourself and make a change, it will naturally reflect upon the world."];
 
 
-let healthQuotes=["Master the 'push up' because it is one exercise you can do anywhere",
-                "The best exercise is the one you do on a regular basis, so find out what you enjoy",
-                "You are only in competition with yourself. Do not compare yourself to others only to your past self ",
-                "Remember to eat healthy foods like vegetables, lean meat and fruits. We are not evolved for the modern western diet (Too much fat and sugar). ",
-                "Pick at least 1 physical activity/sport where you can do it on your own hence not rely on someone else to be active. For example : Running ",
-                "Good bands to workout too. Hatebreed, Terror, Throwdown, Madball, Born from Pain, Lionheart, Stick To Your Guns, Until The End (alot of hardcore/metal bands)  ",
+let healthQuotes=["Master the 'push up' because it is one exercise you can do anywhere.",
+                "The best exercise is the one you do regularly, so find out what you enjoy.",
+                "You are only in competition with yourself. Do not compare yourself to others only to your past self. ",
+                "Remember to eat healthy foods like vegetables, lean meat, and fruits. We are not evolved for the modern Western diet (Too much fat and sugar). ",
+                "Pick at least 1 physical activity/sport where you can do it on your own hence not rely on someone else to be active. For example: Running. ",
+                "A pair of dumbbells makes a great life partner. ",
+                "When you are being physically active. Pain is the not enemy, pain is weakness leaving your body.    ",
+                "Learn Martial arts, self-preservation should be priorities highly. The 'law' isn't always going to be there for you.  ",
+                "Good bands to exercise too. Hatebreed, Terror, Throwdown, Madball, Born from Pain, Lionheart, Stick To Your Guns, Until The End (a lot of hardcore/metal bands).  ",
                 "Investing in your body is as important as investing in your mind as they say 'healthy body, healthy mind.'"];
        
-let quest =[    "Perform 20 Knee assisted or standard push ups ",
+let quest =[    "Perform 20 Knee assisted or standard push-ups ",
                 "Perform 50 body squats",
                 "Tidy your room ",
-                "Perform 8 chair assisted or standard chin ups ",
-                "Tell me 3 things you have learnt this week ",
+                "Perform 8 chair assisted or standard chin-ups ",
+                "Tell me 3 things you have learned this week ",
                 "Find a random book and read one page from it",
                 "Find a random noun in a dictionary and then learn 3 things about it on Wikipedia",
                 "Write a short 'choose your own adventure' story ",
                 "Do something 'nice' for someone ",
-                "Tell me one situation that did not work out for you and what you can do in the future to improve such situation"];
+                "Tell me one situation that did not work out for you and what you can do in the future to improve such a situation"];
 
 
 function Dice(side){
@@ -41,7 +48,7 @@ function Dice(side){
     }
 
 function life(){
-    diceRoll=Dice(8)-1;
+    diceRoll=Dice(12)-1;
     setting=lifeQuotes[diceRoll];
 
     let pickedQuote=setting ;
