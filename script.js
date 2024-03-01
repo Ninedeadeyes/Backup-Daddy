@@ -59,7 +59,7 @@ function life(){
 
 
 function health(){
-    diceRoll=Dice(7)-1;
+    diceRoll=Dice(10)-1;
     setting=healthQuotes[diceRoll];
         
     let pickedQuote=setting ;
