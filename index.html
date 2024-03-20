@@ -11,17 +11,20 @@
 </head>
 
 <body>
-
-<h1>Backup Daddy</h1>
-
-<div id="Quote"></div>
-
-</div>
-
-<div class="buttons">
-    <button onclick="life()">Life</button>
-    <button onclick="health()">Health</button>
-    <button onclick="daily()">Quest</button>
+<div id="chat-container">
+    <h1>Back up Daddy</h1>
+    <p>Just in case daddy goes permanently offline..</p>
+    <div id="Quote"></div>
+        <div class="buttons">
+            <button onclick="life()">Life</button>
+            <button onclick="health()">Health</button>
+            <button onclick="daily()">Quest</button>
+        </div>
+    <h3>Ask me a question</h3>
+    <div id="chat-history"></div>
+    <input id="user-input" type="text" placeholder="Ask here" autocomplete="off"/>
+    <button id="submit-button">Ask</button>
+    <button id="clear-history-button">Clear History</button>
 </div>
 
 <script src="./script.js"></script>
