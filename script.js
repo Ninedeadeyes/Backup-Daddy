@@ -108,7 +108,7 @@ function addMessageToChatHistory(sender, message) {
 }
 
 function processUserInput(input) {
-    const keywords = [ "what are you","run","cod","about you","meaning","metal","album","movie","anime","book","depress","not ok","are you ok","cya","still sad","still bored","bored","sad","miss you","dislike","say to me","more advice","happy","build",'name',"age","advice","music","food","hate","like", "love me","bye","morning","hello","night","joke","life", "love you","built","tip","fuck","dick","hug","thank you","how are you","ok","hi","lol","haha"];
+    const keywords = [ "you die","what are you","run","cod","about you","meaning","metal","album","movie","anime","book","depress","not ok","are you ok","cya","still sad","still bored","bored","sad","miss you","dislike","say to me","more advice","happy","build",'name',"age","advice","music","food","hate","like", "love me","bye","morning","hello","night","joke","life", "love you","built","tip","fuck","dick","hug","thank you","how are you","ok","hi","lol","haha"];
     const responses = {
         "build": "Because I am a bit weird. It is nice to leave something behind if I am unexpectedly offlined ",
         "built": "Because I am a bit odd. It is nice to leave something behind if I am unexpectedly offlined ",
@@ -129,6 +129,7 @@ function processUserInput(input) {
         "love you": "I love you too Alex",
         "bye":"Good bye Alex",
         "cya":"Cya Alex",
+        "die":"I am sorry but it was never my intention to go so soon",
         "night":"Good night Alex",
         "tip": "Be nice to others and most of the time people will be nice to you. Cut away those that aren't",
         "joke": "Why did the strawberry cry? He found himself in a jam",
