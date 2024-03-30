@@ -129,7 +129,7 @@ function processUserInput(input) {
         "love you": "I love you too Alex",
         "bye":"Good bye Alex",
         "cya":"Cya Alex",
-        "die":"I am sorry but it was never my intention to go so soon",
+        "you die":"I am sorry but it was never my intention to go so soon",
         "night":"Good night Alex",
         "tip": "Be nice to others and most of the time people will be nice to you. Cut away those that aren't",
         "joke": "Why did the strawberry cry? He found himself in a jam",
